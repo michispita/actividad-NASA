@@ -1,3 +1,47 @@
 main {
     min-height: calc(100vh - 160px);
   }
+
+.card {
+  margin: auto 1rem 1rem 1rem;
+  overflow: hidden; 
+  }
+
+.card-img-top {
+  height: 18rem;
+  object-fit: cover;
+  }
+
+.card-title {
+  margin: 1rem auto 1rem auto;
+}
+  
+.card-body {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  }
+  
+.card-text {
+  flex-grow: 1; 
+  overflow-y: auto; /*scrollear */
+  margin-top: 1rem; 
+}
+
+#description {
+  flex-grow: 1; 
+  max-height: 15rem; 
+  overflow-y: auto; /*scrollear */
+  margin-top: 1rem; 
+}
+
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.text-muted {
+    margin-top: 0.5rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
